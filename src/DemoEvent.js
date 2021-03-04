@@ -23,6 +23,8 @@ class MyEvent extends React.Component {
         <button onClick={this.myButtonClick}>Okay</button>
         <p>{this.state.val2}</p>
         <p className="result">
+          {" "}
+          //ClassName is used like class in html
           <Factorial num={this.state.val1} />
         </p>
       </div>
