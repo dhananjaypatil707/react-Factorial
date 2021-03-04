@@ -2,9 +2,11 @@ import React from "react";
 
 class MyEvent extends React.Component {
   //Create Component
+
   handleMyClick(e) {
     console.log("Button Click");
   }
+  
   MyInput(e) {
     console.log(e.target.value);
   }
