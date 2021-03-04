@@ -1,10 +1,12 @@
 import React from "react";
 
 class MyEvent extends React.Component {
+ 
   constructor(props) {
     super(props);
     this.state = { val1: "", val2: "" };
   }
+
   myButtonClick = e => {
     this.setState({ val2: this.state.val1 });
   };
@@ -12,6 +14,7 @@ class MyEvent extends React.Component {
   inputTextChange = e => {
     this.setState({ val1: e.target.value });
   };
+  
   render() {
     return (
       <div>
