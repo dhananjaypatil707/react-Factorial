@@ -1,4 +1,5 @@
 import React from "react";
+import Factorial from "./Factorial";
 
 class MyEvent extends React.Component {
   constructor(props) {
@@ -20,7 +21,9 @@ class MyEvent extends React.Component {
         <input type="text" onChange={this.inputTextChange} />
         <button onClick={this.myButtonClick}>Okay</button>
         <p>{this.state.val2}</p>
-        <p>{this.state.val1}</p>
+        <p>
+          <Factorial num={this.state.val1} />
+        </p>
       </div>
     );
   }
