@@ -27,4 +27,4 @@ class MyEvent extends React.Component {
 }
 
 export default MyEvent;
-//Export name of Functional Component
+//Write name of Functional Component not filename
