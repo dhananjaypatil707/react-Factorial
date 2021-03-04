@@ -19,9 +19,10 @@ class MyEvent extends React.Component {
     return (
       <div>
         <input className="input" type="text" onChange={this.inputTextChange} />
+        <br />
         <button onClick={this.myButtonClick}>Okay</button>
         <p>{this.state.val2}</p>
-        <p>
+        <p className="result">
           <Factorial num={this.state.val1} />
         </p>
       </div>
