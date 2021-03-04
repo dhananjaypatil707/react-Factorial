@@ -18,7 +18,11 @@ class MyEvent extends React.Component {
   render() {
     return (
       <div>
-        <input type="text" onChange={this.inputTextChange} />
+        <input
+          className="container-fluid"
+          type="text"
+          onChange={this.inputTextChange}
+        />
         <button onClick={this.myButtonClick}>Okay</button>
         <p>{this.state.val2}</p>
         <p>
