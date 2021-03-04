@@ -1,7 +1,6 @@
 import React from "react";
 
 class MyEvent extends React.Component {
- 
   constructor(props) {
     super(props);
     this.state = { val1: "", val2: "" };
@@ -14,7 +13,7 @@ class MyEvent extends React.Component {
   inputTextChange = e => {
     this.setState({ val1: e.target.value });
   };
-  
+
   render() {
     return (
       <div>
@@ -28,3 +27,4 @@ class MyEvent extends React.Component {
 }
 
 export default MyEvent;
+//Export name of Functional Component
